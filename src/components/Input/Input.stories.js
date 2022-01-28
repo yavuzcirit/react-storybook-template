@@ -2,10 +2,12 @@ import React from "react"
 import Input from "./Input"
 
 export default {
-  title: "Input",
+  title: "Form/Input",
   component: Input
 }
 
-export const Small = () => <Input variant="small" placeholder="Small" />
-export const Medium = () => <Input variant="medium" placeholder="Medium" />
-export const Large = () => <Input variant="large" placeholder="Large" />
+export const Small = () => <Input variant="small" placeholder="Small size" />
+export const Medium = () => <Input variant="medium" placeholder="Medium size" />
+export const Large = () => <Input variant="large" placeholder="Large size" />
+
+Small.storyName = "Small Input"
